@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> conversor Top</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    <h1>Deseja converter alguma temperatura?</h1>
+    <div>
+        <input type="number" id="Ntemp">
+        <select name="ecolherG" id="cgraus">
+            <option value="K">kelvin</option>
+            <option value="C">celsius</option>
+            <option value="R">rankine</option>
+            <option value="F">fahrenheit</option>
+    
+        </select>
+    </div>
+    <div class="conv">
+       
+        
+        <h2> Fahrenheit </h2>
+        <div class="textof">
+            <textarea id="fahrenheit"></textarea>
+        </div>
+        
+        <h2> Celsius </h2>
+        <div class="textoc">
+            <textarea id="celsius"></textarea>
+        </div>
+
+        <h2> rankine </h2>
+        <div class="textor"><textarea id="rankine"></textarea>
+        </div>
+
+        <h2> kelvin </h2>
+        <div class="textok"><textarea id="kelvin"></textarea>
+        </div>
+        
+        
+    </div>
+    <button id="btn"> Temperaturas convertidas!!!</button>
+</body>
+<script src="./main.js"></script>
+</html>

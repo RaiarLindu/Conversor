@@ -1,0 +1,62 @@
+*{
+    padding-left: 0vw;
+    background-color: 		#363b3b;
+}
+
+h2{
+        color: 		#ffffff;
+    text-align: left;
+    font-size: 30px;
+    margin-left: 2%;
+
+}
+
+h1{
+    color: 		#ffffff;
+    margin-left: 2%;
+    font-size: 20px;
+    text-align: left;
+    
+}
+
+#cgraus{
+    height: 2.5vw;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid #000;
+    width: 6vw;
+
+}
+
+textarea{
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    font-size: 20px;
+    height: 3vw;
+    width:  30vw;
+    margin-left: 2%;
+    margin-left: 2%;
+    border: solid 6px 		#000;
+
+}
+
+input{
+    margin-left: 5%;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+    border: 6px solid #000  ;
+    padding-bottom: 5px; 
+
+}
+
+button{
+    float: none;
+    margin-top: 2vw;
+    font-size: 14px;
+    width: 6vw;
+    height: 4vw;
+    margin-left: 2%;
+    border: 6px solid 	#000;
+    background-color: rgb(255, 255, 255);
+}
+
+
